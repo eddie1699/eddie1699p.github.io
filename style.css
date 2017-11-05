@@ -1,5 +1,5 @@
 body {
-    background-color: orange;
+    background-image: url("images/milky-way.png"),url("images/graphy-dark2.png");
     height: 100%;
 }
 nav {
@@ -19,7 +19,6 @@ a {
     padding: 14px 16px;
     text-decoration: none;
     border-right: 1px solid white;
-    font-family: "Comic Sans MS", cursive, sans-serif
 }
 
 a:hover {
@@ -30,7 +29,7 @@ a:hover {
 
 h1 {
     text-align: center;
-    font-family: "Comic Sans MS", cursive, sans-serif
+    color: red;
     
 }
 
@@ -42,10 +41,8 @@ IMG {
 
 p {
     width: 500px;
-    text-align: center;
     margin: 0 auto;
     padding-bottom: 10px;
-    font-family: "Comic Sans MS", cursive, sans-serif;
 	  color: blue;
 }
 
@@ -63,7 +60,6 @@ form {
     margin-left: auto;
     margin-right: auto;
     background-color: grey;
-    font-family: "Comic Sans MS", cursive, sans-serif
 }
 
 div {
@@ -97,9 +93,12 @@ ul {
     margin: 0;
     padding: 0;
     text-align: right
-    font-family: "Comic Sans MS", cursive, sans-serif
 }
 
-li {
-    font-family: "Comic Sans MS", cursive, sans-serif
+
+fieldset {
+    background-color: silver;
+    border: solid #ff0000;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
 }
